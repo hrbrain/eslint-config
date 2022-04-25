@@ -19,7 +19,12 @@ yarn add eslint @hrbrain/eslint-config
 `<your-project>/.eslintrc.js`
 
 ```js
-const config = require("@hrbrain/eslint-config/libs/react/.eslintrc.js");
+/**
+ * @type {import('eslint').Linter.BaseConfig}
+ */
+const config = {
+  extends: ["@hrbrain/eslint-config/libs/configs/react"],
+};
 
 module.exports = config;
 ```
