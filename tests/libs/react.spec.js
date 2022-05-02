@@ -3,7 +3,6 @@ const { getESLintConfig } = require("../utils");
 describe("react", () => {
   it("should return expected config object", async () => {
     const config = await getESLintConfig("react", "js");
-    console.log(JSON.stringify(config, null, 2));
 
     expect(config).toStrictEqual({
       reportUnusedDisableDirectives: undefined,

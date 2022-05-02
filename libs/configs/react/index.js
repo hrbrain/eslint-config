@@ -1,5 +1,3 @@
-
-
 /**
  * @type {import('eslint').Linter.BaseConfig}
  */
