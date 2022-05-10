@@ -10,7 +10,10 @@
   "keywords": [
     "hrbrain",
     "eslint",
-    "config"
+    "config",
+    "react",
+    "prettier",
+    "typescript"
   ],
   "publishConfig": {
     "access": "public",
